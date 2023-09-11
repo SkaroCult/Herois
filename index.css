@@ -1,0 +1,16 @@
+html{
+    box-sizing: border-box;
+}
+h1{
+    font-size: 32px;
+}
+h2{
+    font-size: 26px;;
+}
+.heroi{
+    padding: 10px 20px;
+    margin:20px;
+    background-color: aqua;
+    border: solid black 5px;
+    border-radius: 1em;
+}
