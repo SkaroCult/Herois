@@ -16,5 +16,7 @@ img {
     background-color: aqua;
     border: solid black 5px;
     border-radius: 1em;
-    width: fit-content;
+}
+a{
+    padding: 50px 20px;
 }
