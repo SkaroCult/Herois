@@ -1,29 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pesquisa</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>Pesquisa de Qualidade</h1>
-    <h3>marque e não esqueça nada</h3>
-    
-    <label for="nome">Digite seu nome:</label>
-    <input type="text" name="nome" id="nome" placeholder="Ricardo Goes">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pesquisa</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Pesquisa de Qualidade</h1>
+        <form action="./pesquisa.html" method="GET">
+            <div>
+                <label for="nome">Digite seu nome:</label>
+                <input type="text" name="nome" id="nome" placeholder="Ricardo Goes">
 
-    <label for="email">Digite seu E-Mail:</label>
-    <input type="text" name="email" id="email" placeholder="exemplo@exemplo.com">
+                <label for="email">Digite seu E-Mail:</label>
+                <input type="text" name="email" id="email" placeholder="exemplo@exemplo.com">
+            </div>
+            <br>
+            <div>
+                <label for="nasc">Data de nascimento</label>
+                <div id="nasc">
+                    <select name="dia" id="dia">
+                        <option value="01">01</option>
+                        <option value="02">02</option>
+                        <option value="03">03</option>
+                        <option value="11" selected>11</option>
+                    </select>
+                    <select name="mes" id="mes">
+                        <option value="Abril" >Abr</option>
+                        <option value="Abril">Mar</option>
+                        <option value="Abril" selected>Set</option>
+                        <option value="Abril">Dez</option>
+                    </select>
+                    <select name="ano" id="ano">
+                        <option value="2000">2000</option>
+                        <option value="2001" selected>2001</option>
+                        <option value="2002">2002</option>
+                        <option value="2003">2003</option>
+                    </select>
+                </div>
+            </div>
+            <div>
+                <h3>Genero:</h3>
+                <label for="masculino">Masculino:</label>
+                <input type="radio" name="genero" id="masculino">
 
-    <label for="idade">Digite sua idade:</label>
-    <input type="number" name="idade" id="idade" placeholder="18">
+                <label for="feminino">Feminino:</label>
+                <input type="radio" name="genero" id="feminino"><br>
 
-    <h3>Genero:</h3>
-    <label for="masculino">Normal:</label>
-    <input type="radio" name="genero" id="masculino">
-
-    <label for="feminino">Feminino:</label>
-    <input type="radio" name="genero" id="feminino">
-</body>
+                <label for="sex">Sexualidade</label>
+                <select name="sexua" id="sex">
+                    <option value="hete" selected>Hetero</option>
+                    <option value="homo">Homosexual</option>
+                    <option value="bi">Bisexual</option>
+                    <option value="bacate">Boeing 767</option>
+                </select>
+            </div>
+            <div>
+                <h3>Review da page</h3>
+                <label for="review">Diga-nos o que achou:</label>
+                <textarea name="review" id="review" cols="50" rows="10" placeholder="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos cupiditate natus reprehenderit. Mollitia illum suscipit quaerat! Deleniti illo excepturi voluptatem et, autem temporibus ratione similique assumenda quae atque iure neque?"></textarea>
+            </div>
+            <button>Fim</button>
+        </form>
+    </body>
 </html>
