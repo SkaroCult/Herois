@@ -4,6 +4,10 @@ body{
     background-color: #ac7d7d;
     font-family: Caveat;
     text-align: center;
+    background-image: url('./Imagens/KDK.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 p{
@@ -34,10 +38,23 @@ img{
 }
 
 a {
-    text-decoration: none;
-    color:#493030;
+    color:#8a5b5b;
 }
 nav{
-    text-align: left;
+    text-align: center;
     font-size: 20px;
+    background-color: #ecc2c2;
+    border: solid 2px #493030;
+    border-radius: 20px;
+}
+li{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-color: #ac7d7d;
+    border: solid 2px #2e1d1d;
+    border-radius: 20px;
+}
+li:hover{
+    background-color: antiquewhite;
 }
