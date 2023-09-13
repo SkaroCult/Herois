@@ -1,0 +1,14 @@
+@font-face {
+    font-family: Doom;
+    src: url(../../font/AmazDooMLeft.ttf);
+}
+@font-face {
+    font-family: china;
+    src: url(../../font/chinese\ rocks\ rg.otf);
+}
+
+.title {
+    font-family: Doom;
+    font-size: 65px;
+    line-height: 30px;
+}

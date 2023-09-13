@@ -1,32 +1,43 @@
+@import url(https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=DM+Serif+Display:ital@1&family=Lora:ital@1&family=Oswald:wght@300&family=Quicksand&display=swap);
+
 body{
     background-color: #ac7d7d;
     font-family: Caveat;
+    text-align: center;
 }
+
 p{
     margin: 24px;
     padding: 10px;
-    font-size: 18px;
+    font-size: 28px;
     font-family: Caveat;
     background-color: #ecc2c2;
     border: solid 3px #fcdfdf;
     border-radius: 10px;
+    text-shadow: 10px 5px 5px #2e1d1d;
 
 }
+
 h1{
     margin: 40px 30px;
+    font-size: 44px;
 }
+
 h3{
     padding: 10px;
     margin: 20px 30px;
+    font-size: 34px;
 }
+
 img{
     width: 600px;
 }
-.link{
-    display: inline-block;
-    background-color: rgb(255, 255, 255);
-    padding: 10px;
-    border: solid 2px #ffdcdc;
-    border-radius: 10px;
+
+a {
     text-decoration: none;
+    color:#493030;
+}
+nav{
+    text-align: left;
+    font-size: 20px;
 }
