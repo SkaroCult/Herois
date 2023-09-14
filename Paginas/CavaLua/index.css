@@ -4,6 +4,7 @@ body{
     background-color: #ac7d7d;
     font-family: Caveat;
     text-align: center;
+    background-color: black;
     background-image: url('./Imagens/KDK.jpg');
     background-size: cover;
     background-attachment: fixed;
@@ -34,7 +35,10 @@ h3{
 }
 
 img{
+    float: left;
     width: 600px;
+    border: #2e1d1d solid 3px;
+    border-radius: 10px;
 }
 
 a {
@@ -57,4 +61,10 @@ li{
 }
 li:hover{
     background-color: antiquewhite;
+}
+.side{
+    width: 600px;
+}
+.lado *{
+    display: inline-block;
 }
