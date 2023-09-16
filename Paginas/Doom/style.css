@@ -7,8 +7,48 @@
     src: url(../../font/chinese\ rocks\ rg.otf);
 }
 
-.title {
+html{
+    max-width: 1400px;
     font-family: Doom;
-    font-size: 65px;
-    line-height: 30px;
+    background-color: #271603;
+}
+header{
+    position:relative;
+}
+header #seta{
+    width: 60px;
+    position: absolute;
+    bottom: 0;
+    padding:5px;
+    background-color: white;
+    border-radius: 50%;
+}
+.cabecalho{
+    background: url(../../img/doom-banner.jpg) center top no-repeat;
+    height: 680px;
+}
+.cabecalho h1{
+    position: absolute;
+    bottom: 0;
+    transform: translateX(20%);
+    font-size: 100px;
+}
+main{
+    margin-top: 60px;
+    font-size: 35px;
+    font-family: china;
+    text-align: justify;
+}
+.lado{
+    display: inline;
+}
+#doom93{
+    float: right;
+    width: 170px;
+    margin: 0px 20px;
+    border: solid 20px #632c1f ;
+    border-radius: 30px;
+}
+.lado p{
+    margin-right: 30px;
 }
