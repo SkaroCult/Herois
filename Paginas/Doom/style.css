@@ -20,7 +20,7 @@ header #seta{
     position: absolute;
     bottom: 0;
     padding:5px;
-    background-color: white;
+    background-color: #3f260a;
     border-radius: 50%;
 }
 .cabecalho{
@@ -37,6 +37,8 @@ main{
     margin-top: 60px;
     font-size: 35px;
     font-family: china;
+    text-shadow: #3f0a0a 10px 10px;
+    color: #eba14d;
     text-align: justify;
 }
 .lado{
