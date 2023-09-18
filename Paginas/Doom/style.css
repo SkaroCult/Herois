@@ -11,6 +11,7 @@ html{
     max-width: 1400px;
     font-family: Doom;
     background-color: #271603;
+    text-decoration: none;
 }
 header{
     position:relative;
@@ -24,14 +25,19 @@ header #seta{
     border-radius: 50%;
 }
 .cabecalho{
-    background: url(../../img/doom-banner.jpg) center top no-repeat;
+    background: url("../../img/doom-banner.jpg") center top no-repeat;
     height: 680px;
 }
 .cabecalho h1{
     position: absolute;
     bottom: 0;
-    transform: translateX(20%);
+    transform: translateX(30%);
     font-size: 100px;
+    color:#e6ab2b;
+    text-align: center;
+}
+.cabecalho h1:hover{
+    color: #e73737;
 }
 main{
     margin-top: 60px;
@@ -53,4 +59,34 @@ main{
 }
 .lado p{
     margin-right: 30px;
+}
+iframe{
+    width: 100%;
+    height: 600px;
+
+}
+footer{
+    background: url(../../img/doom1.png) center 20% no-repeat;
+    height: 300px;
+    position: relative;
+    
+}
+footer ul > li{
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    background-color: #cc883b80;
+    border-radius: 30px;
+    font-size: 28px;
+}
+footer ul{
+    position: absolute;
+    right: 0;
+}
+footer h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin: 10px;
+    position: absolute;
+    bottom: 0;
 }
