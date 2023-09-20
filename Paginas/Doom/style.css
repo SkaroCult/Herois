@@ -16,17 +16,10 @@ html{
 header{
     position:relative;
 }
-header #seta{
-    width: 60px;
-    position: absolute;
-    bottom: 0;
-    padding:5px;
-    background-color: #3f260a;
-    border-radius: 50%;
-}
 .cabecalho{
     background: url("../../img/doom-banner.jpg") center top no-repeat;
-    height: 680px;
+    height: 700px;
+    width: 100%;
 }
 .cabecalho h1{
     position: absolute;
