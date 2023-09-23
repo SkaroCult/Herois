@@ -8,7 +8,7 @@
 }
 
 html{
-    max-width: 1400px;
+    max-width: 100vh;
     font-family: Doom;
     background-color: #271603;
     text-decoration: none;
